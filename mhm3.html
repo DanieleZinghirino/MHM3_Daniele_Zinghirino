@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Daniele Zinghirino: Mini homework 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="mhm3.css" rel="stylesheet" type="text/css">
+    <script src="mhm3.js" defer></script>
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <div id="firma">
+                BeFIT Palestre
+            </div>
+            <div id="links">
+                <a>Struttura</a>
+                <a>Abbonamenti</a>
+                <a>Orari</a>
+                <a>Istruttori</a>
+                <a>Contattaci</a>
+                <a class="button">Iscriviti</a>
+            </div>
+            <div id="menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <h1>Scegli il tuo abbonamento e allenati con noi</h1>
+    </header>
+    <section>
+        <div id="main">
+            <h1>Ti offriamo la miglior esperienza possibile</h1>
+        </div>
+        <div id="box">
+            <article>
+                <div class="immagine">
+                    <img src="immagini//article1.jpg" />
+                </div>
+                <div>
+                    <h2 class="abbonamenti">Scegli tra i vari abbonamenti in base al tuo obiettivo!</br>
+                        Molti piani di allenamento diversi e varie durate permetteranno di personalizzare il tuo abbonamento per adattarsi alle tue necessità:</br>dimagrimento, aumento di massa muscolare e tanto altro! </br>
+                        <a class="button">Abbonamenti</a>
+                    </h2>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h2 class="istruttori">
+                        Fatti guidare dai nostri professionisti dell'allenamento!</br>
+                        I nostri preparatissimi personal trainer ti aspettano per accompagnarti nel tuo nuovo percorso e saranno a disposizione per ogni dritta e per tutte le modifiche necessarie al tuo piano di allenamento per ottimizzare il tuo lavoro! </br>
+                        <a class="button">Istruttori</a>
+                    </h2>
+                </div>
+                <div class="immagine">
+                    <img src="immagini/article2.jpg" />
+                </div>
+            </article>
+            <article>
+                <div class="immagine">
+                    <img src="immagini/article3.jpg" />
+                </div>
+                <div>
+                    <h2 class="attrezzi">
+                        Mettiamo a tua disposizione tutti gli attrezzi più moderni per tenerti sempre in forma!</br>
+                        La palestra è sempre aggiornata per offrire a tutti i suoi clienti le migliori attrezzature possibili in grado di ottimizzare il lavoro degli atleti e minimizzare i rischi! </br><a class="button">Struttura</a>
+                    </h2>
+                </div>
+            </article>
+        </div>
+
+
+
+        <div>
+            <h1> Scegli il tuo corso</h1>
+        </div>
+
+        <div> <input type="text" id="ricerca"> </div>
+
+        <div id="griglia">
+
+            <div class="corso" data-nome="PUGILATO">
+                <div class="stella"> <img src="immagini/stella_vuota.png" /> </div>
+                <div>
+                    <h2> PUGILATO </h2>
+                </div>
+                <img src="immagini/pugilato.jpg" />
+                <p class="descrizione button">Clicca per maggiori informazioni</p>
+            </div>
+
+            <div class="corso" data-nome="WORKOUT">
+                <div class="stella"> <img src="immagini/stella_vuota.png" /> </div>
+                <div>
+                    <h2> WORKOUT </h2>
+                </div>
+                <img src="immagini/workout.jpg" />
+                <p class="descrizione button">Clicca per maggiori informazioni</p>
+            </div>
+
+            <div class="corso" data-nome="AEROBICA">
+                <div class="stella"> <img src="immagini/stella_vuota.png" /> </div>
+                <div>
+                    <h2> AEROBICA </h2>
+                </div>
+                <img src="immagini/aerobica.jpg" />
+                <p class="descrizione button">Clicca per maggiori informazioni</p>
+            </div>
+
+            <div class="corso" data-nome="KARATE">
+                <div class="stella"> <img src="immagini/stella_vuota.png" /> </div>
+                <div>
+                    <h2> KARATE </h2>
+                </div>
+                <img src="immagini/karate.jpg" />
+                <p class="descrizione button">Clicca per maggiori informazioni</p>
+            </div>
+
+            <div class="corso" data-nome="YOGA">
+                <div class="stella"> <img src="immagini/stella_vuota.png" /> </div>
+                <div>
+                    <h2> YOGA </h2>
+                </div>
+                <img src="immagini/yoga.jpg" />
+                <p class="descrizione button">Clicca per maggiori informazioni</p>
+            </div>
+
+            <div class="corso" data-nome="SPINNING">
+                <div class="stella"> <img src="immagini/stella_vuota.png" /> </div>
+                <div>
+                    <h2> SPINNING </h2>
+                </div>
+                <img src="immagini/spinning.jpg" />
+                <p class="descrizione button">Clicca per maggiori informazioni</p>
+            </div>
+
+        </div>
+
+
+        <div id="textP" class="hidden">
+            <h1> I tuoi corsi preferiti: </h1>
+        </div>
+        <div id="preferiti">
+
+        </div>
+
+
+        <h1> Personalizza il tuo abbonamento scegliendo i tuoi esercizi preferiti: </h1>
+
+        <div id="esercizi">
+
+            <div id="muscoli">
+
+                <div class="cont" data-nome="petto">
+
+                    <div class="nome_muscolo">
+                        <h2> Petto </h2>
+                    </div>
+                    <div class="casella">
+                        <img src="immagini/casella_vuota.png" />
+                    </div>
+
+                </div>
+                <div class="cont" data-nome="braccia">
+
+                    <div class="nome_muscolo">
+                        <h2> Braccia </h2>
+                    </div>
+                    <div class="casella">
+                        <img src="immagini/casella_vuota.png" />
+                    </div>
+                </div>
+                <div class="cont" data-nome="schiena">
+
+                    <div class="nome_muscolo">
+                        <h2> Schiena </h2>
+                    </div>
+                    <div class="casella">
+                        <img src="immagini/casella_vuota.png" />
+                    </div>
+                </div>
+                <div class="cont" data-nome="spalle">
+
+                    <div class="nome_muscolo">
+                        <h2> Spalle </h2>
+                    </div>
+                    <div class="casella">
+                        <img src="immagini/casella_vuota.png" />
+                    </div>
+                </div>
+
+                <div class="cont" data-nome="polpacci">
+
+                    <div class="nome_muscolo">
+                        <h2> Polpacci </h2>
+                    </div>
+                    <div class="casella">
+                        <img src="immagini/casella_vuota.png" />
+                    </div>
+                </div>
+
+                <div class="cont" data-nome="gambe">
+
+                    <div class="nome_muscolo">
+                        <h2> Gambe </h2>
+                    </div>
+                    <div class="casella">
+                        <img src="immagini/casella_vuota.png" />
+                    </div>
+                </div>
+                <div class="cont" data-nome="glutei">
+
+                    <div class="nome_muscolo">
+                        <h2> Glutei </h2>
+                    </div>
+                    <div class="casella">
+                        <img src="immagini/casella_vuota.png" />
+                    </div>
+                </div>
+
+                <div class="cont" data-nome="addominali">
+
+                    <div class="nome_muscolo">
+                        <h2> Addominali </h2>
+                    </div>
+                    <div class="casella">
+                        <img src="immagini/casella_vuota.png" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="api">
+
+            </div>
+
+
+
+        </div>
+
+        <div id="verifica">
+            <div class="orario">
+                <h2>Verifica l'orario odierno della nostra palestra</h2>
+                <div> <button> Verifica </button> </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <p> Daniele Zinghirino O46002178 </p>
+    </footer>
+</body>
+
+</html>
